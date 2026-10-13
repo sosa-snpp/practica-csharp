@@ -1,0 +1,16 @@
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+Console.WriteLine("+-------------------------------+");
+Console.WriteLine("+Bienvenidos al Kiosko el Pibe  +");
+Console.WriteLine("+-------------------------------+");
+Console.WriteLine("Como se llama?");
+string? cliente = Console.ReadLine();
+Console.WriteLine("Hola," + cliente + ". Que producto desea?");
+string? producto = Console.ReadLine();
+Console.WriteLine("Cantidad?");
+int cantidad = int.Parse(Console.ReadLine());
+Console.WriteLine("+-------------------------------+");
+Console.WriteLine("Su compra:");
+Console.WriteLine("+-------------------------------+");
+ Console.WriteLine(producto + "   cantidad: " + cantidad); 
+Console.WriteLine("Gracias por su compra " + cliente + "." );
+Console.WriteLine("+-------------------------------+");
